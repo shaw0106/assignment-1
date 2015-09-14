@@ -1,0 +1,17 @@
+html {
+    box-sizing: border-box
+}
+
+*,*::before, *::after{
+box-sizing: inherit;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+}
+
+/* Header*/
+/* Nav*/
+/* Body*/
+/* Footer*/
