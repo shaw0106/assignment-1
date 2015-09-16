@@ -2,9 +2,7 @@
 
 html {
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-    margin:0;
-    padding:0;
+
 }
 
 *,*::before, *::after{
@@ -16,19 +14,20 @@ box-sizing: inherit;
 
 body {
     margin: 0;
+    font-family: 'Roboto', sans-serif;
+    padding:0;
 }
-
-/* Header*/
 
 a {
     text-decoration: none;
     color: black;
 }
 
+/* Header*/
+
 header {
     margin: 1em 1em 0 1em;
     padding: 0;
-    display: inline-block;
 }
 
 header img {
@@ -83,71 +82,3 @@ nav li {
     font-size: 1em;
     padding: 1em;
 }
-
-
-/* hero*/
-
-.hero div {
-  padding: 0 0 5rem 0;
-  display: block;
-  clear: both;
-  margin: 0;
-}
-
-figure {
-  display: block;
-  position: relative;
-  padding: 0;
-  margin: 0;
-}
-
-.banner img {
-  width: 100%;
-  display: block;
-  margin: 0;
-  padding: 0;
-}
-
-figcaption {
-  line-height: 1em;
-  text-align: center;
-  width: 80%;
-  color: pink;
-  position: absolute;
-}
-
-figcaption h2 {
-  margin: 0 1rem 0 1rem;
-  font-size: 1rem;
-  position: absolute;
-}
-
-figcaption p {
-  font-size: 0.5rem;
-  padding: 0;
-  margin: 0;
-  position: absolute;
-}
-/* wonders*/
-
-.wonders {
-  float: left;
-  width: 100%;
-  clear: both;
-}
-
-.seven h2 {
-  margin: 0;
-  padding: .5em;
-  text-align: center;
-}
-
-.wonders h3 {
-  clear: left;
-  padding: 0;
-  margin: 0 1em;
-}
-/* tickets*/
-/* nowplaying*/
-/* thisweek*/
-/* Footer*/
