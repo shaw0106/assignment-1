@@ -15,6 +15,7 @@ body {
     font-family: 'Roboto', sans-serif;
     padding:0;
     font-style: normal;
+    text-decoration: none;
 }
 
 
@@ -83,7 +84,7 @@ header p :hover {
 nav {
   clear: left;
   display: block;
-  overflow: hidden;
+
 }
 
 nav ol {
@@ -101,6 +102,7 @@ nav li {
   margin: 0;
   font-size: 1em;
   padding: 1em;
+  overflow: hidden;
 }
 
 nav ol :hover {
@@ -146,3 +148,448 @@ nav ol :hover {
   text-align: center;
   margin: 0;
 }
+
+/* wonders
+  <div class="wonders">
+    <h2 id="seven">The Seven Wonders</h2>
+    <img src="images/giza.jpg" alt="Great Pyramid of Giza">
+    <h3>Great Pyramid of Giza</h3>
+      <dl>
+        <dt>Date of construction:</dt>
+        <dd>2584–2561 BC</dd>
+        <dt>Builders:</dt>
+        <dd>Egyptians</dd>
+        <dt>Location:</dt>
+        <dd>Giza Necropolis, Egypt</dd>
+      </dl>
+      <p>Learn more about <a href="#"> Giza</a><p>
+*/
+
+.wonders {
+  margin: 0;
+  width: 100%;
+  padding: 1em 1em 0;
+  float: left;
+}
+
+.wonders h1 {
+  margin: 1rem;
+
+}.wonders h2 {
+  margin: 1rem;
+  text-align: center;
+}
+
+.wonders h1 {
+  margin: 1rem;
+}
+
+.wonders img {
+  width: 100%;
+  margin: 0;
+  display: block;
+  width: 100%;
+}
+
+dt {
+float:left;
+clear: left;
+padding: 0;
+margin: 0;
+
+}
+
+dd {
+float:left;
+clear:both;
+margin: 1em;
+color: grey;
+}
+
+.wonders p {
+  text-align: center;
+  padding-top: 1rem;
+  clear: both;
+}
+
+.wonders p :hover {
+    border: 2px solid grey;
+    background-color: grey;
+}
+
+
+.bab {
+  margin: 0;
+  width: 100%;
+  padding: 1em 1em 0;
+  float: left;
+}
+
+.bab h1 {
+  margin: 1rem;
+
+}.bab h2 {
+  margin: 1rem;
+  text-align: center;
+}
+
+.bab h1 {
+  margin: 1rem;
+}
+
+.bab img {
+  width: 100%;
+  margin: 0;
+  display: block;
+  width: 100%;
+}
+
+dt {
+float:left;
+clear: left;
+padding: 0;
+margin: 0;
+
+}
+
+dd {
+float:left;
+clear:both;
+margin: 0;
+color: grey;
+}
+
+.bab p {
+  text-align: center;
+  margin:  0;
+  padding: ;
+  clear: both;
+}
+
+.bab p :hover {
+    border: 2px solid grey;
+    background-color: grey;
+}
+
+
+.art {
+  margin: 0;
+  width: 100%;
+  padding: 1em 1em 0;
+  float: left;
+}
+
+.art h1 {
+  margin: 1rem;
+}
+.art h2 {
+  margin: 1rem;
+  text-align: center;
+}
+
+.art h1 {
+  margin: 1rem;
+}
+
+.art img {
+  width: 100%;
+  margin: 0;
+  display: block;
+  width: 100%;
+}
+
+dt {
+float:left;
+clear: left;
+padding: 0;
+margin: 0;
+
+}
+
+dd {
+float:left;
+clear:both;
+margin: 0;
+color: grey;
+}
+
+.art p {
+  text-align: center;
+  margin:  0;
+  padding: ;
+  clear: both;
+}
+
+.art p :hover {
+    border: 2px solid grey;
+    background-color: grey;
+}
+
+.zues {
+  margin: 0;
+  width: 100%;
+  padding: 1em 1em 0;
+  float: left;
+}
+
+.zues h1 {
+  margin: 1rem;
+
+}.zues h2 {
+  margin: 1rem;
+  text-align: center;
+}
+
+.zues h1 {
+  margin: 1rem;
+}
+
+.zues img {
+  width: 100%;
+  margin: 0;
+  display: block;
+  width: 100%;
+}
+
+dt {
+float:left;
+clear: left;
+padding: 0;
+margin: 0;
+}
+
+dd {
+float:left;
+clear:both;
+margin: 0;
+color: grey;
+}
+
+.zues p {
+  text-align: center;
+  margin:  0;
+  padding: ;
+  clear: both;
+}
+
+.zues p :hover {
+    border: 2px solid grey;
+    background-color: grey;
+}
+
+
+
+
+.hal {
+  margin: 0;
+  width: 100%;
+  padding: 1em 1em 0;
+  float: left;
+}
+
+.hal h1 {
+  margin: 1rem;
+
+}.hal h2 {
+  margin: 1rem;
+  text-align: center;
+}
+
+.hal h1 {
+  margin: 1rem;
+}
+
+.hal img {
+  width: 100%;
+  margin: 0;
+  display: block;
+  width: 100%;
+}
+
+dt {
+float:left;
+clear: left;
+padding: 0;
+margin: 0;
+
+}
+
+dd {
+float:left;
+clear:both;
+margin: 0;
+color: grey;
+}
+
+.hal p {
+  text-align: center;
+  margin:  0;
+  padding: ;
+  clear: both;
+}
+
+.hal p :hover {
+    border: 2px solid grey;
+    background-color: grey;
+}
+
+.rhode {
+  margin: 0;
+  width: 100%;
+  padding: 1em 1em 0;
+  float: left;
+}
+
+.rhode h1 {
+  margin: 1rem;
+
+}.rhode h2 {
+  margin: 1rem;
+  text-align: center;
+}
+
+.rhode h1 {
+  margin: 1rem;
+}
+
+.bab img {
+  width: 100%;
+  margin: 0;
+  display: block;
+  width: 100%;
+}
+
+dt {
+float:left;
+clear: left;
+padding: 0;
+margin: 0;
+
+}
+
+dd {
+float:left;
+clear:both;
+margin: 0;
+color: grey;
+}
+
+.rhode p {
+  text-align: center;
+  margin:  0;
+  padding: ;
+  clear: both;
+}
+
+.rhode p :hover {
+    border: 2px solid grey;
+    background-color: grey;
+}
+
+
+
+.light {
+  margin: 0;
+  width: 100%;
+  padding: 1em 1em 0;
+  float: left;
+  clear: both;
+}
+
+.light h1 {
+  margin: 1rem;
+
+}.light h2 {
+  margin: 1rem;
+  text-align: center;
+}
+
+.light h1 {
+  margin: 1rem;
+}
+
+.light img {
+  width: 100%;
+  margin: 0;
+  display: block;
+  width: 100%;
+}
+
+dt {
+float:left;
+clear: left;
+padding: 0;
+margin: 0;
+}
+
+dd {
+float:left;
+clear:both;
+margin: 0;
+color: grey;
+}
+
+.light p {
+  text-align: center;
+  margin:  0;
+  padding: ;
+  clear: both;
+}
+
+.light p :hover {
+    border: 2px solid grey;
+    background-color: grey;
+}
+
+
+
+
+/*tickets
+<div class="tickets">
+  <h2 id="buy">Buy Tickets</h2>
+    <p>Come explore the ancient wonders with our amazing teleportation
+      technology that jumps you around the world.
+    </p>
+    <ul>
+      <li>$15 for <a href="#">adults</a></li>
+      <li>$5 for <a href="#">kids</a></li>
+    </ul>
+
+ <h3>Become a member</h3>
+    <p>Is one visit not enough?
+      Join our yearly program for unlimited access.
+    </p>
+    <ul>
+      <li>$99 for <a href="#">adults</a></li>
+      <li>$39 for <a href="#">kids</a></li>
+    </ul>
+</div>
+*/
+
+.tickets h2 {
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.tickets p{
+
+}
+
+.tickets ul {
+
+}
+
+.tickets li{
+
+}
+
+.tickets li :hover {
+
+}
+
+/* nowplaying*/
+/* thisweek*/
+/* Footer*/
