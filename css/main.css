@@ -2,7 +2,7 @@
 
 html {
     box-sizing: border-box;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin:0;
     padding:0;
 }
@@ -13,6 +13,7 @@ box-sizing: inherit;
 
 /* Body*/
 
+
 body {
     margin: 0;
 }
@@ -21,12 +22,12 @@ body {
 
 a {
     text-decoration: none;
-    color: red;
+    color: black;
 }
 
 header {
     margin: 1em;
-    padding: 15px 0 0;
+    padding: 0;
 }
 
 header ul {
@@ -38,11 +39,18 @@ header ul {
   position: relative;
 }
 
+header p {
+  float:right;
+  clear: both;
+  margin: 0;
+}
+
 h1 {
-  padding:0;
+  padding-top: 3rem;
   margin:0;
-  font-size: 50px;
+  font-size: 40px;
   text-align: center;
+  float: right;
 }
 
 header li {
@@ -52,13 +60,24 @@ header li {
 
 .logo {
   float:left;
+  width: 5%;
 
 }
+
+.wonders {
+  float: left;
+}
+
 /* Nav*/
 
 nav {
-    clear: left;
-    display: block;
+  clear: left;
+  display: block;
+}
+
+nav :hover{
+  background-color:grey;
+  color: white;
 }
 
 nav ol {
