@@ -39,18 +39,28 @@ header ul {
   position: relative;
 }
 
+header li {
+  float:left;
+  text-align: center;
+}
+
 header p {
   float:right;
   clear: both;
   margin: 0;
+  display: inline-block;
+}
+
+img {
+  float:left;
 }
 
 h1 {
-  padding-top: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
   margin:0;
   font-size: 40px;
   text-align: center;
-  float: right;
 }
 
 header li {
@@ -59,9 +69,8 @@ header li {
 }
 
 .logo {
-  float:left;
   width: 5%;
-
+  float: left;
 }
 
 .wonders {
