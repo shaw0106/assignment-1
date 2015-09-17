@@ -60,14 +60,13 @@ header h1 {
 
 header p {
   margin: 0;
-  padding: 1rem;
+  padding: 1em;
   color: black;
   float: right;
 }
 
 header p :hover {
-  color: purple;
-
+  color: orange;
 }
 
 /* Nav
@@ -173,15 +172,15 @@ nav ol :hover {
 }
 
 .wonders h1 {
-  margin: 1rem;
+  margin: 1em;
 
 }.wonders h2 {
-  margin: 1rem;
+  margin: 1em;
   text-align: center;
 }
 
 .wonders h1 {
-  margin: 1rem;
+  margin: 1em;
 }
 
 .wonders img {
@@ -208,7 +207,7 @@ color: grey;
 
 .wonders p {
   text-align: center;
-  padding-top: 1rem;
+  padding-top: 1em;
   clear: both;
 }
 
@@ -227,15 +226,15 @@ color: grey;
 }
 
 .bab h1 {
-  margin: 1rem;
+  margin: 1em;
 
 }.bab h2 {
-  margin: 1rem;
+  margin: 1em;
   text-align: center;
 }
 
 .bab h1 {
-  margin: 1rem;
+  margin: 1em;
 }
 
 .bab img {
@@ -282,15 +281,15 @@ color: grey;
 }
 
 .art h1 {
-  margin: 1rem;
+  margin: 1em;
 }
 .art h2 {
-  margin: 1rem;
+  margin: 1em;
   text-align: center;
 }
 
 .art h1 {
-  margin: 1rem;
+  margin: 1em;
 }
 
 .art img {
@@ -336,15 +335,15 @@ color: grey;
 }
 
 .zues h1 {
-  margin: 1rem;
+  margin: 1em;
 
 }.zues h2 {
-  margin: 1rem;
+  margin: 1em;
   text-align: center;
 }
 
 .zues h1 {
-  margin: 1rem;
+  margin: 1em;
 }
 
 .zues img {
@@ -392,15 +391,15 @@ color: grey;
 }
 
 .hal h1 {
-  margin: 1rem;
+  margin: 1em;
 
 }.hal h2 {
-  margin: 1rem;
+  margin: 1em;
   text-align: center;
 }
 
 .hal h1 {
-  margin: 1rem;
+  margin: 1em;
 }
 
 .hal img {
@@ -446,15 +445,15 @@ color: grey;
 }
 
 .rhode h1 {
-  margin: 1rem;
+  margin: 1em;
 
 }.rhode h2 {
-  margin: 1rem;
+  margin: 1em;
   text-align: center;
 }
 
 .rhode h1 {
-  margin: 1rem;
+  margin: 1em;
 }
 
 .rhode img {
@@ -504,15 +503,15 @@ color: grey;
 }
 
 .light h1 {
-  margin: 1rem;
+  margin: 1em;
 
 }.light h2 {
-  margin: 1rem;
+  margin: 1em;
   text-align: center;
 }
 
 .light h1 {
-  margin: 1rem;
+  margin: 1em;
 }
 
 .light img {
@@ -575,48 +574,38 @@ color: grey;
 */
 
 .tickets {
-  margin: 0;
-  background-color: #ededed;
+    margin: 0;
+    text-align: center;
+    clear: left;
+    overflow: hidden;
+    display: block;
 }
 
-.tickets h3 {
-  font-size: 20px;
-  margin: 0;
-  padding: 2rem 0 0 0;
-  text-align: center;
-  width: 100%;
-  clear: both;
-}
+.tickets p {
+padding: 1.5em }
 
 .tickets h2 {
-  font-size: 24px;
-  margin: 0;
-  padding: 2rem 0 0 0;
-  text-align: center;
-  width: 100%;
-  clear: both;
-}
-
-.tickets p{
-  text-align: center;
-  margin: 0;
-  padding: 1em 2em 0;
+    text-align: center;
+    clear: both;
+    margin: 0;
+    padding: .5em;
 }
 
 .tickets ul {
-  list-style-type: none;
+    display: block;
+    margin: 0 auto 2em;
+    width: 70%;
+    overflow: hidden;
+}
+.tickets li {
+    float: left;
+    list-style-type: none;
+    width: 50%;
+    padding: 1em;
 }
 
-.tickets li{
-float: left;
-padding: 0 0 0 1rem;
-}
-
-.tickets li :hover {
-  border: 2px solid grey;
-  background-color: grey;
-  color: white;
-}
+.tickets li:hover {
+	background-color: lightgrey; }
 
 /* nowplaying
 <div class="nowplaying">
@@ -644,6 +633,8 @@ padding: 0 0 0 1rem;
   display: inline;
   margin: 0;
   padding: 0;
+  position: relative;
+
 }
 
 figure {
@@ -655,13 +646,15 @@ figure {
 
 .nowplaying h2 {
   float: left;
-  margin: 1rem;
+  margin: 0;
   text-align: center;
-  padding: ;
+  padding-top: 2em;
+  padding-bottom: 1em;
 }
 
 figcaption {
   float:left;
+  position: absolute;
 }
 
 /* thisweek*/
